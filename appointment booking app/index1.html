@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Appointment Page</title>
+    </head>
+<body>
+    <form id="appoint">
+
+            <legend><b>Appointment</b></legend>
+            <br>
+        <label for="text1">Name:</label>
+        <input type="text"  name="name" id="name"><br>
+        <br>
+        <label for="text2">Phone no:</label>
+        <input type="number"  name="number" id="text2"><br>
+        <br>
+        <label for="doctor">Doctor type:</label>
+                <select name="course" id="doctor">
+                    <option value="ortho">ortho</option>
+                    <option value="gynec">gynec</option>
+                    <option value="dentist">dentist</option>
+                </select>
+                <br>
+                <br>
+        <button type="submit" name="button" onclick="addUserData(event)">Submit</button>
+        <br>
+        
+    </form>
+
+    <ul form="form-ul">
+
+    </ul>
+
+</body>    
+</html>
+<script src="script.js"></script>
